@@ -12,6 +12,6 @@ curl -X PUT \
 -H "Accept: application/json" \
 -H "Content-Type: application/json" \
 -d "$json" \
-http://10.44.41.12:3000/resources/Ericsson/ITSC/temperature
+http://iot-api-gw.ericsson.net:3001/resources/Ericsson/ITSC/temperature
 sleep 10
 done
